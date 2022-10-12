@@ -2,19 +2,18 @@ body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("./kelly-sikkema-tk9RQCq5eQo-unsplash.jpg");
-  
-  color: white;
+  color:white
 }
 .page{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 40PX 400PX 400px;
+  grid-template-rows: 50PX 400PX 400px;
   grid-template-areas: "header header header header header""aside aside aside aside aside""section section section section section";
 }
 .page1{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 40PX;
+  grid-template-rows: 50PX;
   grid-template-areas: "header header header header header";
 }
 h2{
@@ -27,8 +26,7 @@ header{
   grid-area: header;
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
-  color: black;
+  background-color: transparent;
   padding: 10px;
 }
 section{
@@ -108,4 +106,18 @@ textarea{
   width: 400px;
   margin-top: 5px;
   resize: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.bouttons a{
+  text-decoration: none;
+  color: white;
+}
+button{
+  margin-top: 10px;
+  margin-left: 85%;
+  width: 15%;
+}
 }
