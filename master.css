@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./kelly-sikkema-tk9RQCq5eQo-unsplash.jpg");
+  
+  color: white;
+}
+.page{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 40PX 400PX 400px;
+  grid-template-areas: "header header header header header""aside aside aside aside aside""section section section section section";
+}
+.page1{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 40PX;
+  grid-template-areas: "header header header header header";
+}
+h2{
+  display: inline-block;
+  margin: 0;
+  font-size: 15PX;
+  ALIGN-SELF: CENTER;
+}
+header{
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+}
+section{
+  grid-area: section;
+}
+aside{
+  grid-area: aside;
+  ALIGN-SELF: CENTER;
+  MARGIN: 0 AUTO;
+}
+ul{
+list-style: none;
+align-self: center;
+font-weight: bold;
+}
+
+ul li{
+display: inline-block;
+margin-left: 40px;
+font-size: 15px;
+}
+img{
+width: 300px;
+border-radius: 50%;
+
+}
+section p{
+margin-right: 10px;
+}
+.hello{
+font-size:50px;
+margin: 0;
+}
+section div a{
+width: 90px;
+height: 90px;
+margin-left: 30px;
+display: inline-block;
+text-align: center;
+line-height: 85px;
+BORDER-RADIUS: 50%;
+COLOR: WHITE;
+background-color: #404040;
+}
+
+p{
+  text-align: center;
+}
+h3{ 
+  text-align: center;
+}
+.para{
+  width: 400px;
+  margin: 10px auto;
+}
+.bouttons{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  margin: 70px auto;
+  width: fit-content;
+}
+.input div input{
+  width: 400px;
+  height: 40px;
+  margin-top: 5px;
+}
+.input div{
+  margin-top: 50px;
+}
+label{
+  display: block;
+}
+textarea{
+  width: 400px;
+  margin-top: 5px;
+  resize: none;
+}
